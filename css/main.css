@@ -2,6 +2,7 @@
   display: inline-block;
   width: 800px;
   background-color: red;
+  margin-top: 50px;
   margin-left: calc((100% - 800px) / 2);
 }
 .left-column {
