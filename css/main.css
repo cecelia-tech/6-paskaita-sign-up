@@ -57,7 +57,8 @@ body {
   bottom: 30px;
   right: 30px;
 }
-.left-column > span {
+.left-column > .links > a {
+  color: #fff;
 }
 
 .right-column {
