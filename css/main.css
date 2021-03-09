@@ -9,14 +9,17 @@ body * {
 
 body {
   background-color: #9fcbe0;
+  height: 100vh;
+  position: relative;
 }
 
 .container {
   display: inline-block;
   width: 800px;
-  margin-top: 50px;
-  margin-left: calc((100% - 800px) / 2);
-  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .left-column {
   display: inline-block;
